@@ -1,1 +1,13 @@
 CLASS em net/minecraft/server/EntityHuman
+	FIELD G hookedFish Lhq;
+	FIELD a sleepTicks I
+	FIELD i inventory Lfx;
+	FIELD j defaultContainer Lcl;
+	FIELD k activeContainer Lcl;
+	FIELD r name Ljava/lang/String;
+	FIELD s dimension I
+	FIELD z sleeping Z
+	METHOD M isDeeplySleeping ()Z
+	METHOD N getBed ()Lay;
+	METHOD a getBed (Ldj;Lay;)Lay;
+	METHOD b receive (Llq;I)V

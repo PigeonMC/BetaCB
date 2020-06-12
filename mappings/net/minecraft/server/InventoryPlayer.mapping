@@ -1,0 +1,3 @@
+CLASS fx net/minecraft/server/InventoryPlayer
+	FIELD c itemInHandInex I
+	METHOD b getItemInHand ()Lfy;

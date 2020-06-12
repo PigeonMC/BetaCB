@@ -1,1 +1,10 @@
 CLASS hl net/minecraft/server/EntityLiving
+	FIELD H maxNoDamageTicks I
+	FIELD R texture Ljava/lang/String;
+	FIELD ab health I
+	FIELD ad hurtTicks I
+	FIELD ag deathTicks I
+	FIELD ah attackTicks I
+	FIELD ax lastDamage I
+	METHOD L isSleeping ()Z
+	METHOD a die (Llq;)V

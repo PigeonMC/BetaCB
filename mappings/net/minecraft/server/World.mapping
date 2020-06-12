@@ -3,7 +3,10 @@ CLASS dj net/minecraft/server/World
 	FIELD q spawnMonsters I
 	FIELD r random Ljava/util/Random;
 	FIELD t worldProvider Los;
+	METHOD a containsEntity (Lcz;)Z
 	METHOD a addIWorldAccess (Ljp;)V
+	METHOD a getEntities (Llq;Lcz;)Ljava/util/List;
+	METHOD a makeSound (Llq;Ljava/lang/String;FF)V
 	METHOD a save (ZLpj;)V
 	METHOD a setSpawnFlags (ZZ)V
 	METHOD b addEntity (Llq;)Z

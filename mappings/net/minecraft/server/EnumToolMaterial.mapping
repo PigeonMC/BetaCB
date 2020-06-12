@@ -1,0 +1,6 @@
+CLASS bb net/minecraft/server/EnumToolMaterial
+	FIELD a WOOD Lbb;
+	FIELD b STONE Lbb;
+	FIELD c IRON Lbb;
+	FIELD d DIAMOND Lbb;
+	FIELD e GOLD Lbb;

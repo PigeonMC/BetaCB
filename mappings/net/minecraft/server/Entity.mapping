@@ -1,1 +1,84 @@
 CLASS lq net/minecraft/server/Entity
+	FIELD aG id I
+	FIELD a entityCount I
+	FIELD aJ passenger Llq;
+	FIELD aK vehicle Llq;
+	FIELD aL world Ldj;
+	FIELD aM lastX D
+	FIELD aN lastY D
+	FIELD aO lastZ D
+	FIELD aP locX D
+	FIELD aQ locY D
+	FIELD aR locZ D
+	FIELD aS motX D
+	FIELD aT motY D
+	FIELD aU motZ D
+	FIELD aV yaw F
+	FIELD aW pitch F
+	FIELD aX lastYaw F
+	FIELD aY lastPitch F
+	FIELD aZ boundingBox Lcz;
+	FIELD bB noDamageTicks I
+	FIELD bC airTicks I
+	FIELD bD fireProof Z
+	FIELD bE datawatcher Lmo;
+	FIELD ba onGround Z
+	FIELD bb positionChanged Z
+	FIELD be velocityChanged Z
+	FIELD bh dead Z
+	FIELD bi height F
+	FIELD bj length F
+	FIELD bk width F
+	FIELD bn fallDistance F
+	FIELD bv random Ljava/util/Random;
+	FIELD bw ticksLived I
+	FIELD bx maxFireTicks I
+	FIELD by fireTicks I
+	FIELD bz maxAirTicks I
+	FIELD c justCreated Z
+	METHOD <init> (Ldj;)V
+		ARG 1 world
+	METHOD I ()D
+	METHOD J die ()V
+	METHOD a move (DDD)V
+		ARG 1 d0
+		ARG 3 d1
+		ARG 5 d2
+	METHOD a (DZ)V
+		ARG 1 d0
+		ARG 3 flag
+	METHOD a burn (I)V
+		ARG 1 i
+	METHOD a (IZ)V
+		ARG 1 i
+		ARG 2 flag
+	METHOD a (Lc;)V
+		ARG 1 entityweatherstorm
+	METHOD a spawnIn (Ldj;)V
+	METHOD a (Lfy;F)Lez;
+		ARG 1 itemstack
+	METHOD a damageEntity (Llq;I)Z
+	METHOD ah isSneaking ()Z
+	METHOD b setLocation (DDDFF)V
+	METHOD b mount (Llq;)V
+		ARG 1 entity
+	METHOD c setPosition (DDD)V
+		ARG 1 d0
+		ARG 3 d1
+		ARG 5 d2
+	METHOD c setPositionRotation (DDDFF)V
+	METHOD c (Liq;)Z
+		ARG 1 nbttagcompound
+	METHOD d (I)Z
+		ARG 1 i
+	METHOD e (Liq;)V
+		ARG 1 nbttagcompound
+	METHOD e setSneak (Z)V
+		ARG 1 flag
+	METHOD g (DDD)Z
+		ARG 1 d0
+		ARG 3 d1
+		ARG 5 d2
+	METHOD h collide (Llq;)V
+	METHOD i_ getEquipment ()[Lfy;
+	METHOD m ()D

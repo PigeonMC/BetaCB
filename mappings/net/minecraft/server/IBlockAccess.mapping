@@ -1,2 +1,4 @@
 CLASS pb net/minecraft/server/IBlockAccess
+	METHOD a getTypeId (III)I
+	METHOD c getData (III)I
 	METHOD d getMaterial (III)Lhj;

@@ -1,1 +1,4 @@
 CLASS bu net/minecraft/server/StepSound
+	METHOD a getVolume1 ()F
+	METHOD b getVolume2 ()F
+	METHOD c getName ()Ljava/lang/String;
