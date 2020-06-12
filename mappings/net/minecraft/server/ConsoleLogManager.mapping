@@ -1,0 +1,2 @@
+CLASS ev net/minecraft/server/ConsoleLogManager
+	METHOD a init ()V

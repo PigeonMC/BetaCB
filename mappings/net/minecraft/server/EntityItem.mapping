@@ -1,0 +1,2 @@
+CLASS ez net/minecraft/server/EntityItem
+	FIELD c pickupDelay I

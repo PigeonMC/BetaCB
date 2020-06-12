@@ -1,0 +1,2 @@
+CLASS ej net/minecraft/server/Item
+	FIELD c byId [Lej;

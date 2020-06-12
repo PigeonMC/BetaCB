@@ -1,0 +1,2 @@
+CLASS mc net/minecraft/server/ConsoleCommandHandler
+	METHOD a handle (Laf;)V

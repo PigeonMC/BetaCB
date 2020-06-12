@@ -1,0 +1,3 @@
+CLASS fc net/minecraft/server/ServerConfigurationManager
+	METHOD a setPlayerFieldData ([Ldp;)V
+	METHOD d savePlayers ()V

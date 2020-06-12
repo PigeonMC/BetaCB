@@ -1,0 +1,175 @@
+CLASS na net/minecraft/server/Block
+	FIELD A BEDROCK Lna;
+	FIELD B WATER Lna;
+	FIELD C STATIONARY_WATER Lna;
+	FIELD D LAVA Lna;
+	FIELD E STATIONARY_LAVA Lna;
+	FIELD F SAND Lna;
+	FIELD G GRAVEL Lna;
+	FIELD H GOLD_ORE Lna;
+	FIELD I IRON_ORE Lna;
+	FIELD J COAL_ORE Lna;
+	FIELD K LOG Lna;
+	FIELD L LEAVES Lar;
+	FIELD M SPONGE Lna;
+	FIELD N GLASS Lna;
+	FIELD O LAPIS_ORE Lna;
+	FIELD P LAPIS_BLOCK Lna;
+	FIELD Q DISPENSIR Lna;
+	FIELD R SANDSTONE Lna;
+	FIELD S NOTE_BLOCK Lna;
+	FIELD T BED Lna;
+	FIELD U GOLDEN_RAIL Lna;
+	FIELD V DETECTOR_RAIL Lna;
+	FIELD W PISTON_STICKY Lna;
+	FIELD X WEB Lna;
+	FIELD Y LONG_GRASS Lkz;
+	FIELD Z DEAD_BUSH Lfz;
+	FIELD aA CROPS Lna;
+	FIELD aB SOIL Lna;
+	FIELD aC FURNACE Lna;
+	FIELD aD BURNING_FURNACE Lna;
+	FIELD aE SIGN_POST Lna;
+	FIELD aF WOODEN_DOOR Lna;
+	FIELD aG LADDER Lna;
+	FIELD aH RAILS Lna;
+	FIELD aI COBBLESTONE_STAIRS Lna;
+	FIELD aJ WALL_SIGN Lna;
+	FIELD aK LEVER Lna;
+	FIELD aL STONE_PLATE Lna;
+	FIELD a name Ljava/lang/String;
+	FIELD aM IRON_DOOR_BLOCK Lna;
+	FIELD aN WOOD_PLATE Lna;
+	FIELD aO REDSTONE_ORE Lna;
+	FIELD aP GLOWING_REDSTONE_ORE Lna;
+	FIELD aQ REDSTONE_TORCH_OFF Lna;
+	FIELD aR REDSTONE_TORCH_ON Lna;
+	FIELD aS STONE_BUTTON Lna;
+	FIELD aT SNOW Lna;
+	FIELD aU ICE Lna;
+	FIELD aV SNOW_BLOCK Lna;
+	FIELD aW CACTUS Lna;
+	FIELD aX CLAY Lna;
+	FIELD aY SUGAR_CANE_BLOCK Lna;
+	FIELD aZ JUKEBOX Lna;
+	FIELD aa PISTON Lna;
+	FIELD ab PISTON_EXTENSION Lg;
+	FIELD ac WOOL Lna;
+	FIELD ad PISTON_MOVING Lmz;
+	FIELD ae YELLOW_FLOWER Lnw;
+	FIELD af RED_ROSE Lnw;
+	FIELD ag BROWN_MUSHROOM Lnw;
+	FIELD ah RED_MUSHROOM Lnw;
+	FIELD ai GOLD_BLOCK Lna;
+	FIELD aj IRON_BLOCK Lna;
+	FIELD ak DOUBLE_STEP Lna;
+	FIELD al STEP Lna;
+	FIELD am BRICK Lna;
+	FIELD an TNT Lna;
+	FIELD ao BOOKSHELF Lna;
+	FIELD ap MOSSY_COBBLESTONE Lna;
+	FIELD aq OBSIDIAN Lna;
+	FIELD ar TORCH Lna;
+	FIELD as FIRE Lpt;
+	FIELD at MOB_SPAWNER Lna;
+	FIELD au WOOD_STAIRS Lna;
+	FIELD av CHEST Lna;
+	FIELD aw REDSTONE_WIRE Lna;
+	FIELD ax DIAMOND_ORE Lna;
+	FIELD ay DIAMOND_BLOCK Lna;
+	FIELD az WORKBENCH Lna;
+	FIELD bA material Lhj;
+	FIELD bB frictionFactor F
+	FIELD ba FENCE Lna;
+	FIELD bb PUMPKIN Lna;
+	FIELD bc NETHERRACK Lna;
+	FIELD bd SOUL_SAND Lna;
+	FIELD be GLOWSTONE Lna;
+	FIELD bf PORTAL Lz;
+	FIELD bg JACK_O_LANTERN Lna;
+	FIELD bh CAKE_BLOCK Lna;
+	FIELD bi DIODE_OFF Lna;
+	FIELD bj DIODE_ON Lna;
+	FIELD bk LOCKED_CHEST Lna;
+	FIELD bl TRAP_DOOR Lna;
+	FIELD bm textureId I
+	FIELD bn id I
+	FIELD bo strength F
+	FIELD bp durability F
+	FIELD bs minX D
+	FIELD bt minY D
+	FIELD bu minZ D
+	FIELD bv maxX D
+	FIELD bw maxY D
+	FIELD bx maxZ D
+	FIELD by stepSound Lbu;
+	FIELD d Lbu;
+	FIELD m byId [Lna;
+	FIELD p isTileEntity [Z
+	FIELD u STONE Lna;
+	FIELD v GRASS Loj;
+	FIELD w DIRT Lna;
+	FIELD x COBBLESTONE Lna;
+	FIELD y WOOD Lna;
+	FIELD z SAPLING Lna;
+	METHOD <init> (ILhj;)V
+		ARG 1 i
+		ARG 2 material
+	METHOD a (ILjava/util/Random;)I
+		ARG 1 i
+		ARG 2 random
+	METHOD a canPlace (Ldj;III)Z
+	METHOD a canPlace (Ldj;IIII)Z
+	METHOD a dropNaturally (Ldj;IIIIF)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+		ARG 6 f
+	METHOD a interact (Ldj;IIILem;)Z
+	METHOD a (Ldj;IIILfy;)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 itemstack
+	METHOD a postPlace (Ldj;IIILhl;)V
+	METHOD a (Ldj;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+	METHOD a (Ldj;Lem;IIII)V
+		ARG 2 entityhuman
+	METHOD a getDamage (Lem;)F
+		ARG 1 entityhuman
+	METHOD a (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD b remove (Ldj;III)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+	METHOD b doPhysics (Ldj;IIII)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+	METHOD c (F)Lna;
+		ARG 1 f
+	METHOD c (Ldj;III)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+	METHOD c postBreak (Ldj;IIII)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+	METHOD d isPowerSource ()Z
+	METHOD e postPlace (Ldj;IIII)V

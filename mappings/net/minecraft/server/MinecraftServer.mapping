@@ -1,0 +1,26 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	FIELD a log Ljava/util/logging/Logger;
+	FIELD b trackerList Ljava/util/HashMap;
+	FIELD c networkListenThread Lcu;
+	FIELD d propertyManager Lky;
+	FIELD e worldServer [Ldp;
+	FIELD f serverConfigurationManager Lfc;
+	FIELD g isStopped Z
+	FIELD h ticks I
+	FIELD k tracker [Lnl;
+	FIELD l onlineMode Z
+	FIELD m spawnAnimals Z
+	FIELD n pvpMode Z
+	FIELD o allowFlight Z
+	FIELD p consoleCommandHandler Lmc;
+	FIELD q isRunning Z
+	METHOD a getWorldServer (I)Ldp;
+	METHOD a (Lil;Ljava/lang/String;J)V
+		ARG 1 convertable
+	METHOD a (Ljava/lang/String;I)V
+	METHOD a issueCommand (Ljava/lang/String;Lmb;)V
+	METHOD b getTracker (I)Lnl;
+	METHOD c init ()Z
+	METHOD f saveChunks ()V
+	METHOD g stop ()V
+	METHOD run ()V

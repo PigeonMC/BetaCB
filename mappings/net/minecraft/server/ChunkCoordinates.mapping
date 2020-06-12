@@ -1,0 +1,3 @@
+CLASS ay net/minecraft/server/ChunkCoordinates
+	FIELD a x I
+	FIELD c z I

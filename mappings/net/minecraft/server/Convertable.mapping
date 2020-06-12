@@ -1,0 +1,3 @@
+CLASS il net/minecraft/server/Convertable
+	METHOD a isConvertable (Ljava/lang/String;)Z
+	METHOD a convert (Ljava/lang/String;Lpj;)Z

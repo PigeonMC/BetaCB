@@ -1,0 +1,13 @@
+CLASS dj net/minecraft/server/World
+	FIELD B isStatic Z
+	FIELD q spawnMonsters I
+	FIELD r random Ljava/util/Random;
+	FIELD t worldProvider Los;
+	METHOD a addIWorldAccess (Ljp;)V
+	METHOD a save (ZLpj;)V
+	METHOD a setSpawnFlags (ZZ)V
+	METHOD b addEntity (Llq;)Z
+	METHOD f doLighting ()Z
+	METHOD m getTime ()J
+	METHOD n getSpawn ()Lay;
+	METHOD t everyoneDeeplySleeping ()Z

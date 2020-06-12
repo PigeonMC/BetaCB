@@ -1,0 +1,5 @@
+CLASS ky net/minecraft/server/PropertyManager
+	FIELD b properties Ljava/util/Properties;
+	METHOD a getInt (Ljava/lang/String;I)I
+	METHOD a getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getBoolean (Ljava/lang/String;Z)Z

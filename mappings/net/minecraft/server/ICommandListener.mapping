@@ -1,0 +1,3 @@
+CLASS mb net/minecraft/server/ICommandListener
+	METHOD b sendMessage (Ljava/lang/String;)V
+	METHOD d getName ()Ljava/lang/String;

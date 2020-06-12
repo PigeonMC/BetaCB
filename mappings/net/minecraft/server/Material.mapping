@@ -1,0 +1,3 @@
+CLASS hj net/minecraft/server/Material
+	METHOD a isBuildable ()Z
+	METHOD b blocksLight ()Z

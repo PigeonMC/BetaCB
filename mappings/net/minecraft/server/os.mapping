@@ -1,0 +1,2 @@
+CLASS os net/minecraft/server/os
+	FIELD g dimension I

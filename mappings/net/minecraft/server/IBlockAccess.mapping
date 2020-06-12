@@ -1,0 +1,2 @@
+CLASS pb net/minecraft/server/IBlockAccess
+	METHOD d getMaterial (III)Lhj;
