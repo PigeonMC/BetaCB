@@ -1,3 +1,5 @@
 CLASS fc net/minecraft/server/ServerConfigurationManager
+	FIELD b players Ljava/util/List;
+	METHOD a sendAll (Lgt;)V
 	METHOD a setPlayerFieldData ([Ldp;)V
 	METHOD d savePlayers ()V

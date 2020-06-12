@@ -1,0 +1,2 @@
+CLASS dl net/minecraft/server/EntityPlayer
+	FIELD a netServerHandler Lha;

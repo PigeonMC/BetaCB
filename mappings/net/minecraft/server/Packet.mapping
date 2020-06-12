@@ -1,0 +1,2 @@
+CLASS gt net/minecraft/server/Packet
+	FIELD j timestamp J

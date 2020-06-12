@@ -1,0 +1,5 @@
+CLASS jh net/minecraft/server/TileEntity
+	FIELD d world Ldj;
+	FIELD e x I
+	FIELD f y I
+	FIELD g z I

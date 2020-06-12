@@ -1,4 +1,36 @@
 CLASS hj net/minecraft/server/Material
+	FIELD A WEB Lhj;
+	FIELD B PISTON Lhj;
+	FIELD D canBurn Z
+	FIELD a AIR Lhj;
+	FIELD b GRASS Lhj;
+	FIELD c EARTH Lhj;
 	FIELD d WOOD Lhj;
+	FIELD e STONE Lhj;
+	FIELD f ORE Lhj;
+	FIELD g WATER Lhj;
+	FIELD h LAVA Lhj;
+	FIELD i LEAVES Lhj;
+	FIELD j PLANT Lhj;
+	FIELD k SPONGE Lhj;
+	FIELD l CLOTH Lhj;
+	FIELD m FIRE Lhj;
+	FIELD n SAND Lhj;
+	FIELD o ORIENTABLE Lhj;
+	FIELD p SHATTERABLE Lhj;
+	FIELD q TNT Lhj;
+	FIELD r CORAL Lhj;
+	FIELD s ICE Lhj;
+	FIELD t SNOW_LAYER Lhj;
+	FIELD u SNOW_BLOCK Lhj;
+	FIELD v CACTUS Lhj;
+	FIELD w CLAY Lhj;
+	FIELD x PUMPKIN Lhj;
+	FIELD y PORTAL Lhj;
+	FIELD z CAKE Lhj;
 	METHOD a isBuildable ()Z
 	METHOD b blocksLight ()Z
+	METHOD c isSolid ()Z
+	METHOD d isLiquid ()Z
+	METHOD e isBurnable ()Z
+	METHOD g isReplacable ()Z

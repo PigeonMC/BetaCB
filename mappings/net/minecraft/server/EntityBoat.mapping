@@ -1,1 +1,2 @@
 CLASS eb net/minecraft/server/EntityBoat
+	FIELD a damage I

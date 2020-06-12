@@ -1,2 +1,4 @@
 CLASS mc net/minecraft/server/ConsoleCommandHandler
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
 	METHOD a handle (Laf;)V
+	METHOD a print (Ljava/lang/String;Ljava/lang/String;)V

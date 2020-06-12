@@ -1,0 +1,13 @@
+CLASS hi net/minecraft/server/Chunk
+	FIELD d world Ldj;
+	FIELD h heightMap [B
+	FIELD l tileEntities Ljava/util/Map;
+	FIELD m entitySlices [Ljava/util/List;
+	FIELD n done Z
+	METHOD a getTypeId (III)I
+	METHOD a getData ([BIIIIIII)I
+	METHOD b initLighting ()V
+	METHOD b getData (III)I
+	METHOD c loadNOP ()V
+	METHOD e removeEntities ()V
+	METHOD g isEmpty ()Z

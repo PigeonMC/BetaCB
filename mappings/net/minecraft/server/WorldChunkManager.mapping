@@ -1,0 +1,2 @@
+CLASS ph net/minecraft/server/WorldChunkManager
+	METHOD a getBiome (II)Lgs;

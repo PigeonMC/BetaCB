@@ -1,3 +1,4 @@
 CLASS dp net/minecraft/server/WorldServer
 	FIELD C chunkProviderServer Lhe;
+	FIELD E canSave Z
 	METHOD w saveLevel ()V

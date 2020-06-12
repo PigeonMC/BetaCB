@@ -1,2 +1,0 @@
-CLASS bl net/minecraft/server/bl
-	METHOD c getChunkAt (II)Lhi;

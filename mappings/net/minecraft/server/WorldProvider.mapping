@@ -1,0 +1,2 @@
+CLASS os net/minecraft/server/WorldProvider
+	FIELD g dimension I

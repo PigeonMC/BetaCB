@@ -1,1 +1,2 @@
 CLASS af net/minecraft/server/ServerCommand
+	FIELD a command Ljava/lang/String;

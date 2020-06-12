@@ -1,0 +1,8 @@
+CLASS ct net/minecraft/server/WorldData
+	METHOD b getSeed ()J
+	METHOD b setThunderDuration (I)V
+	METHOD b setStorm (Z)V
+	METHOD c setWeatherDuration (I)V
+	METHOD j isThundering ()Z
+	METHOD k getThunderDuration ()I
+	METHOD l hasStorm ()Z

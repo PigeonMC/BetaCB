@@ -1,1 +1,12 @@
 CLASS fy net/minecraft/server/ItemStack
+	FIELD a count I
+	FIELD c id I
+	FIELD d damage I
+	METHOD a getItem ()Lej;
+	METHOD a placeItem (Lem;Ldj;IIII)Z
+	METHOD a doMaterialsMatch (Lfy;)Z
+	METHOD a equals (Lfy;Lfy;)Z
+	METHOD b getMaxStackSize ()I
+	METHOD c isStackable ()Z
+	METHOD e usesData ()Z
+	METHOD h getData ()I

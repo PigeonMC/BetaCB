@@ -1,0 +1,2 @@
+CLASS bp net/minecraft/server/SpawnerCreature
+	METHOD a spawnEntities (Ldj;ZZ)I

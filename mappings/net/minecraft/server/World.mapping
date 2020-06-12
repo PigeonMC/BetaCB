@@ -1,16 +1,69 @@
 CLASS dj net/minecraft/server/World
 	FIELD B isStatic Z
+	FIELD N allowMonsters Z
+	FIELD O allowAnimals Z
+	FIELD b entityList Ljava/util/List;
+	FIELD d players Ljava/util/List;
+	FIELD o suppressPhysics Z
 	FIELD q spawnMonsters I
 	FIELD r random Ljava/util/Random;
 	FIELD t worldProvider Los;
+	FIELD v chunkProvider Lbl;
+	FIELD x worldData Lct;
+	FIELD y isLoading Z
+	FIELD z worldMaps Les;
+	METHOD a getWorldChunkManager ()Lph;
+	METHOD a makeSound (DDDLjava/lang/String;FF)V
+	METHOD a areChunksLoaded (IIII)Z
+	METHOD a setRawTypeIdAndData (IIIII)Z
+	METHOD a setTileEntity (IIILjh;)V
+	METHOD a (IIIZ)I
+	METHOD a setTime (J)V
+	METHOD a rayTrace (Lba;Lba;Z)Lnh;
+	METHOD a rayTrace (Lba;Lba;ZZ)Lnh;
 	METHOD a containsEntity (Lcz;)Z
+	METHOD a douseFire (Lem;IIII)V
 	METHOD a addIWorldAccess (Ljp;)V
+	METHOD a strikeLightning (Llq;)Z
+	METHOD a findNearbyPlayer (Llq;D)Lem;
+	METHOD a createExplosion (Llq;DDDFZ)Lkh;
 	METHOD a getEntities (Llq;Lcz;)Ljava/util/List;
 	METHOD a makeSound (Llq;Ljava/lang/String;FF)V
+	METHOD a findPath (Llq;Llq;F)Lcb;
+	METHOD a entityJoinWorld (Llq;Z)V
 	METHOD a save (ZLpj;)V
 	METHOD a setSpawnFlags (ZZ)V
+	METHOD b getChunkAtWorldCoords (II)Lhi;
+	METHOD b setRawTypeId (IIII)Z
+	METHOD b setTypeIdAndData (IIIII)Z
+	METHOD b setTimeAndFixTicklists (J)V
 	METHOD b addEntity (Llq;)Z
+	METHOD c getChunkAt (II)Lhi;
+	METHOD c setData (IIII)V
+	METHOD c getMultiChunkData (IIIIII)[B
+	METHOD d getHighestBlockYAt (II)I
+	METHOD d setRawData (IIII)Z
+	METHOD d playNote (IIIII)V
+	METHOD e cleanUp ()V
+	METHOD e setTypeId (IIII)Z
+	METHOD e kill (Llq;)V
 	METHOD f doLighting ()Z
+	METHOD f isEmpty (III)Z
+	METHOD f update (IIII)V
+	METHOD f removeEntity (Llq;)V
+	METHOD g isChunkLoaded (II)Z
+	METHOD g isLoded (III)Z
+	METHOD g playerJoinedWorld (Llq;)V
+	METHOD h doTick ()V
+	METHOD h notify (III)V
+	METHOD h applyPhysics (IIII)V
+	METHOD i isBlockFacePowered (IIII)Z
+	METHOD j isBlockFaceIndirectlyPowered (IIII)Z
+	METHOD l getSeed ()J
+	METHOD l getLightLevel (III)I
 	METHOD m getTime ()J
 	METHOD n getSpawn ()Lay;
+	METHOD q isBlockPowered (III)Z
+	METHOD r everyoneSleeping ()V
+	METHOD r isBlockIndirectlyPowered (III)Z
 	METHOD t everyoneDeeplySleeping ()Z

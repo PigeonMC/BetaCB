@@ -1,0 +1,3 @@
+CLASS co net/minecraft/server/EnumSkyBlock
+	FIELD a SKY Lco;
+	FIELD b BLOCK Lco;
