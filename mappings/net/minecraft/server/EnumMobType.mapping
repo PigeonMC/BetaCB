@@ -1,0 +1,4 @@
+CLASS kx net/minecraft/server/EnumMobType
+	FIELD a EVERYTHING Lkx;
+	FIELD b MOBS Lkx;
+	FIELD c PLAYERS Lkx;

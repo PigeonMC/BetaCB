@@ -1,5 +1,0 @@
-CLASS bw net/minecraft/server/EnumBadError
-	FIELD b NOT_POSSIBLE_HERE Lbw;
-	FIELD c NOT_POSSIBLE_NOW Lbw;
-	FIELD d TOOD_FAR_AWAY Lbw;
-	FIELD e OTHER_PROBLEM Lbw;

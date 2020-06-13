@@ -1,2 +1,8 @@
 CLASS bl net/minecraft/server/IChunkProvider
+	METHOD a unloadChunks ()Z
+	METHOD a isChunkLoaded (II)Z
+	METHOD a getChunkAt (Lbl;II)V
+	METHOD a saveChunks (ZLpj;)Z
+	METHOD b canSave ()Z
+	METHOD b getOrCreateChunk (II)Lhi;
 	METHOD c getChunkAt (II)Lhi;

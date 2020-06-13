@@ -1,0 +1,2 @@
+CLASS cz net/minecraft/server/AxisAlignedBB
+	METHOD e shrink (DDD)Lcz;

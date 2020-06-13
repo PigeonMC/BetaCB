@@ -1,0 +1,12 @@
+CLASS he net/minecraft/server/ChunkProviderServer
+	FIELD a forceChunkLoad Z
+	FIELD b unloadQueue Ljava/util/Set;
+	FIELD c emptyChunk Lhi;
+	FIELD d chunkProvider Lbl;
+	FIELD f chunks Ljava/util/Map;
+	FIELD g chunkList Ljava/util/List;
+	FIELD h world Ldp;
+	METHOD a saveChunkNOP (Lhi;)V
+	METHOD b saveChunk (Lhi;)V
+	METHOD d queueUnload (II)V
+	METHOD e loadChunk (II)Lhi;

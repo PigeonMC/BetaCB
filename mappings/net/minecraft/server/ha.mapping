@@ -1,2 +1,0 @@
-CLASS ha net/minecraft/server/ha
-	METHOD a disconnect (Ljava/lang/String;)V

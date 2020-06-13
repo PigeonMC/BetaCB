@@ -1,0 +1,2 @@
+CLASS ha net/minecraft/server/NetServerHandler
+	METHOD a disconnect (Ljava/lang/String;)V
